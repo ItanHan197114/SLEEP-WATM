@@ -1,0 +1,65 @@
+a{
+  color:orange;
+  background-color: white;
+  border: 3px solid #2F3841;
+  border-radius: 500px;
+  padding: 15px;
+  font-size: : 5px;
+  margin: 15px;
+  opacity: 1;
+  width: 100px;
+  align="center"
+}
+
+a:hover{
+opacity: 1;
+cursor: url(pointer),pointer;
+border: 5px solid #2F3841;
+}
+
+p{
+    border: 3px solid #2F3841;
+    border-radius: 500px
+}
+
+p:hover{
+    border: 5px solid #2F3841;
+}
+
+
+body{
+  background: url(https://avatars.mds.yandex.net/get-pdb/964102/4295f989-32c7-493a-b29e-f9f330d9644e/s1200) no-repeat center center fixed;
+  background-size: cover;
+
+}
+*{
+  cursor: url(http://s1.iconbird.com/ico/2013/9/437/w32h321379971028cloud32.png),pointer;
+}
+
+
+
+/*.............................................
+
+
+    MEDIA
+
+
+.............................................*/
+/*При ширине экрана в 1160px и мение будет выполнен медиа запрос*/
+@media (max-width: 1160px) {
+
+    .container {
+      width: 100%;
+    }
+
+    .col-4{
+      with:  100%;
+      margin: 0;
+      margin-bottom: 30px;
+      padding-left:  15px;
+      padding-right:  15px;
+      text-align: center;
+
+    }
+
+}
